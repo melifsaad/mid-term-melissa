@@ -1,0 +1,30 @@
+.projectSection {
+    margin-left: 124px;
+    margin-right: 124px;
+}
+
+.grid-container{
+    display: grid;
+    gap: 1px;
+    height: 100vh;
+    grid-template-areas: 
+    'header header header '
+    'menu main main'
+    'footer footer footer'
+    ;
+}
+
+.item1 {
+    width: 340px;
+    font-size: 24px;
+}
+
+.item2 {
+    width: 340px;
+    font-size: 24px;
+}
+
+.item3 {
+    width: 340px;
+    font-size: 24px;
+}

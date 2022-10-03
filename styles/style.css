@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:wght@100;500&display=swap');
+@import "./navbar.css";
+@import "./heroSection.css";
+@import "./client.css";
+@import "./project.css";
+@import "./testimonialSection.css";
+@import "./ourServices.css";
+@import "./ctaSection.css";
+@import "./footer.css";
+
+body {
+    background-color: #F2F4FC;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #292E47;
+}
+
+h1 {
+    font-size: 60px;
+    color: #292E47;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    background-color: #072AC8;
+    padding: 15px 36px;
+    color: #eee;
+    font-size: 17px;
+    font-weight: medium;
+    border: none;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+button:hover {
+    background-color: #292E47;
+}

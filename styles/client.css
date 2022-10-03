@@ -1,0 +1,12 @@
+.clientSection {
+    margin-left: 124px;
+    margin-right: 124px;
+}
+
+.client {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
