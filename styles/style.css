@@ -24,10 +24,24 @@ h3 {
     font-size: 40px;
 }
 
-p {
-    font-size: 20px;
+h5 {
+    font-size: 24px;
+    font-weight:normal;
 }
 
+h6 {
+    font-size: 17px;
+    font-weight:normal;
+}
+
+p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+}
 button {
     background-color: #072AC8;
     padding: 15px 36px;

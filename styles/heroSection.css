@@ -10,7 +10,8 @@
 }
 
 .content{
-    margin: 20px 0 30px;
+    margin: 20px 20px 30px 0px;
+    max-width: 550px;
 }
 
 .buttonWhite {
@@ -33,10 +34,19 @@
 
 .card1 { 
     position:absolute;
+    left: -19%;
+    top: 0%;
+    bottom: -22%;
+    right: auto;
+    bottom: auto;
     width: 300px;
 }
 
 .card2 { 
     position:absolute;
+    left: auto;
+    top: auto;
+    right: -25%;
+    bottom: -22%;
     width: 300px;
 }
