@@ -1,12 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>ContactUs</title>
 </head>
+
 <body>
-    
+    <div class="navbar">
+        <div class="container">
+            <img src="/Images/circle.svg" alt="logoCircle">
+            <div class="menu">
+                <a class="project" href="/index.html">Home</a>
+                <a class="project" href="/project-card1.html">Project</a>
+                <a class="project" href="/services.html">Services</a>
+            </div>
+            <a href="/contact-Us.html" class="button">Contact Us</a>
+        </div>
+    </div>
+
+    <div class="contactUsSection">
+        <div class="containerContactUs">
+            <h1>Contact Us</h1>
+            <!-- <div class="formContact"> -->
+                <form id="ContactUs" name="ContactUs">
+                    <div class="contact">
+                        <label for="name" class="contactTitle">Full Name *</label>
+                        <input id="input1" type="text" class="contactField" placeholder="Enter your full name">
+                    </div>
+                    <div class="contact">
+                        <label for="email" class="contactTitle">Email</label>
+                        <input id="input2" type="email" class="contactField" placeholder="Enter your email">
+                    </div>
+                    <div class="contact">
+                        <label for="name" class="contactTitle">Phone</label>
+                        <input id="input3" type="text" class="contactField" placeholder="Enter your full phone">
+                    </div>
+                    <div class="contact">
+                        <label for="name" class="contactTitle">Message *</label>
+                        <textarea class="messageField" placeholder="Write your message here..." class="contactField"></textarea>
+                    </div>
+                    <input id="submit" type="submit" value="Submit" class="buttonSubmit">
+                </form>
+            <!-- </div> -->
+        </div>
+    </div>
+
+    <div class="footerSection">
+        <div class="containerFooter">
+            <div class="footerContent">
+                <div class="iconFooter"></div>
+                <div>2972 Westheimer Rd. Santa Ana, Illinois 85486</div>
+            </div>
+            <div class="footerLinks">
+                <a href="" class="footer-link">Team</a>
+                <a href="" class="footer-link">Services</a>
+                <a href="" class="footer-link">About Us</a>
+                <a href="" class="footer-link">Press</a>
+                <a href="" class="footer-link">Projects</a>
+                <a href="" class="footer-link">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+
+<script src="/js/indexContact.js"></script>
 </body>
+
 </html>

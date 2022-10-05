@@ -1,0 +1,42 @@
+.footerSection {
+    margin-left: 124px;
+    margin-right: 124px;
+    margin-top: 200px;
+    padding-bottom: 100px;
+}
+
+.containerFooter {
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+}
+.iconFooter {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 30px;
+    background-image: url(/Images/circle.svg);
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footerLinks {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.footer-link {
+    margin: 0%;
+    color:#072AC8;
+    font-size: 17px;
+}

@@ -28,6 +28,7 @@
     color: #072AC8;
 }
 
-.home {
-    color: #A2D6F9 !important;
+.local {
+    color: #A2D6F9;
+    font-size: 17px;
 }

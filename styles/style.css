@@ -7,6 +7,8 @@
 @import "./ourServices.css";
 @import "./ctaSection.css";
 @import "./footer.css";
+@import "/styles/simplifySect.css";
+@import "/styles/contact.css";
 
 body {
     background-color: #F2F4FC;
@@ -26,23 +28,25 @@ h3 {
 
 h5 {
     font-size: 24px;
-    font-weight:normal;
+    font-weight: normal;
 }
 
 h6 {
     font-size: 17px;
-    font-weight:normal;
+    font-weight: normal;
 }
 
 p {
     font-size: 20px;
     font-weight: lighter;
+    padding-bottom: 20px;
 }
 
 a {
     text-decoration: none;
 }
-button {
+
+.button {
     background-color: #072AC8;
     padding: 15px 36px;
     color: #eee;
@@ -51,8 +55,9 @@ button {
     border: none;
     cursor: pointer;
     transition: 300ms;
+    text-decoration: none;
 }
 
-button:hover {
+.button:hover {
     background-color: #292E47;
 }

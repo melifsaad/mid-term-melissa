@@ -1,7 +1,5 @@
-// const promise  = fetch('https://jsonplaceholder.typicode.com/posts/1').then((response) => response.json().then(res => console.log(res)))
-
 const getInfo1 = async () =>{
-    const data = await fetch('https://jsonplaceholder.typicode.com/posts/2').then((response) => response.json().then(res => res))
+    const data = await fetch('https://jsonplaceholder.typicode.com/posts/8').then((response) => response.json().then(res => res))
     document.querySelector (".item1 h5").innerHTML = data.title
     document.querySelector (".item1 p").innerHTML = data.body
 }
@@ -20,3 +18,9 @@ const getInfo3 = async () =>{
     document.querySelector (".item3 p").innerHTML = data.body
 }
 getInfo3();
+
+const getInfoBanner = async () =>{
+    const data = await fetch('https://jsonplaceholder.typicode.com/posts/16').then((response) => response.json().then(res => res))
+    document.querySelector (".info1 p").innerHTML = data.body
+}
+getInfoBanner();

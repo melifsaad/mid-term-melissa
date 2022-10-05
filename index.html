@@ -14,11 +14,11 @@
         <div class="container">
             <img src="/Images/circle.svg" alt="logoCircle">
             <div class="menu">
-                <h6 class="home">Home</h6>
+                <div class="local">Home</div>
                 <a class="project" href="/project-card1.html">Project</a>
                 <a class="project" href="/services.html">Services</a>
             </div>
-            <button>Contact Us</button>
+            <a href="/contact-Us.html" class="button">Contact Us</a>
         </div>
     </div>
 
@@ -52,24 +52,28 @@
     <div class="projectSection">
         <h3>Recent Projects</h3>
         <div class="grid-container">
-            <div class="item1">
+            <div class="projectCard">
                 <img class="img" src="/Images/1.jpg" alt="simply-img">
-                <h5></h5>
-                <p></p>
-                <a href="/project-card1.html">Learn More</a>
-
+                <div class="item1">
+                    <h5></h5>
+                    <p></p>
+                    <a href="/project-card1.html">Learn More</a>
+                </div>
             </div>
-            <div class="item2">
+            <div class="projectCard">
                 <img class="img" src="/Images/2.jpg" alt="dashcoin-img">
-                <h5></h5>
-                <p></p>
-                <a href="/project-card2.html">Learn More</a>
+                <div class="item2">
+                    <h5></h5>
+                    <p></p>
+                    <a href="/project-card1.html">Learn More</a>
+                </div>
             </div>
-            <div class="item3">
-                <img class="img" src="/Images/3.jpg" alt="vectorify-img">
-                <h5></h5>
-                <p></p>
-                <a href="/project-card3.html">Learn More</a>
+            <div class="projectCard"> <img class="img" src="/Images/3.jpg" alt="vectorify-img">
+                <div class="item3">
+                    <h5></h5>
+                    <p></p>
+                    <a href="/project-card1.html">Learn More</a>
+                </div>
             </div>
         </div>
     </div>
@@ -97,33 +101,33 @@
     </div>
 
     <div class="ourServices">
-            <h3>Our Services</h3>
-            <div class="grid-services">
-                <div class="services1">
-                    <div class="userDesign">
-                        <img src="/Images/pluma.svg" alt="interface-img">
-                    </div>
-                    <h5>User Interface Design</h5>
-                    <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
-                    <h6>Learn More</h6>
+        <h3>Our Services</h3>
+        <div class="grid-services">
+            <div class="services1">
+                <div class="userDesign">
+                    <img src="/Images/pluma.svg" alt="interface-img">
                 </div>
-                <div class="services2">
-                    <div class="userDesign">
-                        <img src="/Images/arrow.svg" alt="experience-img">
-                    </div>
-                    <h5>User Experience Design</h5>
-                    <p>Circle always focuses on delivering the best user experience to your customers.</p>
-                    <h6>Learn More</h6>
-                </div>
-                <div class="services3">
-                    <div class="userDesign">
-                        <img src="/Images/aplicacion.svg" alt="application-img">
-                    </div>
-                    <h5>Application Development</h5>
-                    <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
-                    <h6>Learn More</h6>
-                </div>
+                <h5>User Interface Design</h5>
+                <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
+                <h6>Learn More</h6>
             </div>
+            <div class="services2">
+                <div class="userDesign">
+                    <img src="/Images/arrow.svg" alt="experience-img">
+                </div>
+                <h5>User Experience Design</h5>
+                <p>Circle always focuses on delivering the best user experience to your customers.</p>
+                <h6>Learn More</h6>
+            </div>
+            <div class="services3">
+                <div class="userDesign">
+                    <img src="/Images/aplicacion.svg" alt="application-img">
+                </div>
+                <h5>Application Development</h5>
+                <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
+                <h6>Learn More</h6>
+            </div>
+        </div>
     </div>
 
     <div class="ctaSection">
@@ -131,13 +135,34 @@
             <h3>Do you have any questions?</h3>
             <p>Let us help you!</p>
             <div class="formBlock">
-                
+                <form id="emailForm" name="emailForm">
+                    <div class="textfielEmail">
+                        <img class="iconEmail" src="/Images/mail.svg" alt="econ-email">
+                        <input type="email" class="textEmail" placeholder="Enter your email">
+                        <button class="suscribe">Suscribe</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
 
-    <div class="footerSection"></div>
-<script src="/js/index.js"></script>
+    <div class="footerSection">
+        <div class="containerFooter">
+            <div class="footerContent">
+                <div class="iconFooter"></div>
+                <div>2972 Westheimer Rd. Santa Ana, Illinois 85486</div>
+            </div>
+            <div class="footerLinks">
+                <a href="" class="footer-link">Team</a>
+                <a href="" class="footer-link">Services</a>
+                <a href="" class="footer-link">About Us</a>
+                <a href="" class="footer-link">Press</a>
+                <a href="" class="footer-link">Projects</a>
+                <a href="" class="footer-link">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+    <script src="/js/index.js"></script>
 </body>
 
 </html>
