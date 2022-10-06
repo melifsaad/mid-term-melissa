@@ -20,3 +20,11 @@ const getInfo3 = async () =>{
     document.querySelector (".item3 p").innerHTML = data.body
 }
 getInfo3();
+
+
+//Mobile Menu hamburguesa
+
+document.querySelector("#btnHamburguesa").addEventListener('click', ()=>{
+    document.querySelector("#menuHamburguesa").classList.toggle('is-active')
+    document.querySelector("#btnHamburguesa").classList.toggle('is-active')
+})

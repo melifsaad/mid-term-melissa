@@ -1,3 +1,9 @@
+.navbarDesktop {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .navbar {
     margin-top: 70px;
     margin-left: 124px;
@@ -29,4 +35,9 @@
 .local {
     color: #A2D6F9;
     font-size: 17px;
+}
+
+/* ---------------- Tablet  */
+.navbarTablet {
+    display: none;
 }

@@ -13,13 +13,23 @@
 .contact {
     margin-top: 20px;
     width: 100%;
-    /* padding-right: 25px; */
 }
 
 .containerEmailPhone {
     display: flex;
     justify-content: space-between;
-    /* object-fit: contain; */
+}
+
+.contactEmail {
+    margin-top: 20px;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.contactPhone {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 20px;
 }
 
 .contactTitle {

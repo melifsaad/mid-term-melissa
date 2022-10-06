@@ -9,6 +9,7 @@
 @import "./footer.css";
 @import "./simplifySect.css";
 @import "./contact.css";
+@import "./responsive.css";
 
 body {
     background-color: #F2F4FC;
