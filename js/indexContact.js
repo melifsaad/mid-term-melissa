@@ -1,8 +1,16 @@
-const infoName = document.querySelector("#input1");
-document.querySelector("#submit").addEventListener("click", () => {
-  submit.preventDefault();
-  console.log(infoName.value);
-});
+form.addEventListener ("#submit", (event) => {
+    
+}
+
+
+
+
+
+// const infoName = document.querySelector("#input1");
+// document.querySelector("#submit").addEventListener("click", () => {
+//   submit.preventDefault();
+//   console.log(infoName.value);
+// });
 
 // const infoEmail = document.querySelector ("#input2");
 // document.querySelector ("#submit").addEventListener('click', () => {

@@ -5,7 +5,7 @@
     height: 622px;
     background-color: #292E47;
     position: relative;
-    background-image: url(/Images/orbit.png);
+    background-image: url(./Images/orbit.png);
     background-size: contain;
     background-repeat: repeat-y;
     display: flex;

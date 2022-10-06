@@ -7,8 +7,8 @@
 @import "./ourServices.css";
 @import "./ctaSection.css";
 @import "./footer.css";
-@import "/styles/simplifySect.css";
-@import "/styles/contact.css";
+@import "./styles/simplifySect.css";
+@import "./styles/contact.css";
 
 body {
     background-color: #F2F4FC;
