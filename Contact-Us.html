@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/style.css">
-    <title>ContactUs</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>contactUs</title>
 </head>
 
 <body>
@@ -25,27 +25,27 @@
     <div class="contactUsSection">
         <div class="containerContactUs">
             <h1>Contact Us</h1>
-            <!-- <div class="formContact"> -->
-                <form id="ContactUs" name="ContactUs">
+                <form id="contactUs" name="ContactUs">
                     <div class="contact">
                         <label for="name" class="contactTitle">Full Name *</label>
                         <input id="input1" type="text" class="contactField" placeholder="Enter your full name">
                     </div>
-                    <div class="contact">
-                        <label for="email" class="contactTitle">Email</label>
-                        <input id="input2" type="email" class="contactField" placeholder="Enter your email">
-                    </div>
-                    <div class="contact">
-                        <label for="name" class="contactTitle">Phone</label>
-                        <input id="input3" type="text" class="contactField" placeholder="Enter your full phone">
+                    <div class="containerEmailPhone">
+                        <div class="contact">
+                            <label for="email" class="contactTitle">Email</label>
+                            <input id="input2" type="email" class="contactField" placeholder="Enter your email">
+                        </div>
+                        <div class="contact">
+                            <label for="name" class="contactTitle">Phone</label>
+                            <input id="input3" type="text" class="contactField" placeholder="Enter your full phone">
+                        </div>
                     </div>
                     <div class="contact">
                         <label for="name" class="contactTitle">Message *</label>
-                        <textarea class="messageField" placeholder="Write your message here..." class="contactField"></textarea>
+                        <textarea id="input4" class="messageField" placeholder="Write your message here..." class="contactField"></textarea>
                     </div>
                     <input id="submit" type="submit" value="Submit" class="buttonSubmit">
                 </form>
-            <!-- </div> -->
         </div>
     </div>
 
@@ -66,7 +66,7 @@
         </div>
     </div>
 
-<script src="/js/indexContact.js"></script>
+<script src="./js/indexContact.js"></script>
 </body>
 
 </html>

@@ -1,12 +1,10 @@
 .navbar {
     margin-top: 70px;
-    height: 122px;
-    width: 100%;
-}
-
-.container {
     margin-left: 124px;
     margin-right: 124px;
+}
+
+.containerNavbar {
     display: flex;
     align-items: center;
 }

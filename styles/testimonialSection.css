@@ -96,8 +96,12 @@
 .testimonialClient {
     margin-left: 10px;
     display: flex;
-    flex-direction:row;
-    justify-content:center
+    flex-direction: row;
+    justify-content: center
+}
+
+.infoClient {
+    padding-left: 15px;
 }
 
 .titlePhoto {
