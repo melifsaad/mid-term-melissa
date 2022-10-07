@@ -80,7 +80,6 @@
 
     .container {
         flex-direction: column;
-
     }
 
     .content {
@@ -90,7 +89,6 @@
 
     .heroImages {
         width: 90%;
-
     }
 
     .card1 {
@@ -186,8 +184,6 @@
         padding-right: 20px;
     }
 
-    /* ------------> ctaSection */
-
 
 }
 
@@ -200,5 +196,94 @@
         display: none;
     }
 
+    /* ------------> hersoSection */
+    .heroSection {
+        box-sizing: border-box;
+        margin-left: 40px;
+        margin-right: 0px;
+        height: auto;
+        max-width: 90%;
+    }
 
-}
+    /* ------------> clientSection */
+    .client {
+        box-sizing: border-box;
+        align-items: center;
+        margin-right: 2px;
+    }
+
+    /* ------------> projectSection */
+    .projectSection {
+        box-sizing: border-box;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-column-gap: 30px;
+    }
+
+    /* ------------> testimonialSection */
+
+    
+    .emojiTopLeft,
+    .emojiTopRight,
+    .emojiBottomLeft,
+    .emojiBottomRight {
+        display: none;
+    }
+
+    /* ------------> ourServices */
+    .grid-services {
+        grid-template-columns: 1fr
+    }
+
+    /* ------------> ctaSection */
+    .ctaSection {
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .ctaSection h3 {
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+    .textfielEmail {
+        width: 100%;
+    }
+
+    .iconEmail {
+        left: 22%;
+        top: 18%;
+    }
+
+    .textEmail {
+        width: 150px;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    .suscribe {
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    /* ------------> footer */
+    .footerSection {
+        margin-left: 30px;
+    }
+
+    .containerFooter {
+        flex-direction: column;
+    }
+
+    .footerContent {
+        align-content: center;
+    }
+
+    .adressFooter {
+        text-align: center;
+    }
+
+    }
