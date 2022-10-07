@@ -19,7 +19,7 @@
                 <a class="project" href="./project-card1.html">Project</a>
                 <a class="project" href="./services.html">Services</a>
             </div>
-            <a href="./contact-Us.html" class="button">Contact Us</a>
+            <a href="./contact.html" class="button">Contact Us</a>
         </div>
 
         <!-- -----------tablet -->
@@ -37,7 +37,7 @@
                     </li>
                     <li><a class="project" href="./project-card1.html">Project</a></li>
                     <li><a class="project" href="./services.html">Services</a></li>
-                    <li><a class="local" href="./contact-Us.html">Contact Us</a></li>
+                    <li><a class="local" href="./contact.html">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -46,27 +46,28 @@
     <div class="contactUsSection">
         <div class="containerContactUs">
             <h1>Contact Us</h1>
-                <form id="contactUs" name="ContactUs">
-                    <div class="contact">
-                        <label for="name" class="contactTitle">Full Name *</label>
-                        <input id="input1" type="text" class="contactField" placeholder="Enter your full name">
+            <form id="contactUs" name="ContactUs">
+                <div class="contact">
+                    <label for="name" class="contactTitle">Full Name *</label>
+                    <input id="input1" type="text" class="contactField" placeholder="Enter your full name">
+                </div>
+                <div class="containerEmailPhone">
+                    <div class="contactEmail">
+                        <label for="email" class="contactTitle">Email</label>
+                        <input id="input2" type="email" class="contactField" placeholder="Enter your email">
                     </div>
-                    <div class="containerEmailPhone">
-                        <div class="contactEmail">
-                            <label for="email" class="contactTitle">Email</label>
-                            <input id="input2" type="email" class="contactField" placeholder="Enter your email">
-                        </div>
-                        <div class="contactPhone">
-                            <label for="name" class="contactTitle">Phone</label>
-                            <input id="input3" type="text" class="contactField" placeholder="Enter your full phone">
-                        </div>
+                    <div class="contactPhone">
+                        <label for="name" class="contactTitle">Phone</label>
+                        <input id="input3" type="text" class="contactField" placeholder="Enter your full phone">
                     </div>
-                    <div class="contact">
-                        <label for="name" class="contactTitle">Message *</label>
-                        <textarea id="input4" class="messageField" placeholder="Write your message here..." class="contactField"></textarea>
-                    </div>
-                    <input id="submit" type="submit" value="Submit" class="buttonSubmit">
-                </form>
+                </div>
+                <div class="contact">
+                    <label for="name" class="contactTitle">Message *</label>
+                    <textarea id="input4" class="messageField" placeholder="Write your message here..."
+                        class="contactField"></textarea>
+                </div>
+                <input id="submit" type="submit" value="Submit" class="buttonSubmit">
+            </form>
         </div>
     </div>
 
@@ -87,7 +88,7 @@
         </div>
     </div>
 
-<script src="./js/indexContact.js"></script>
+    <script src="./js/indexContact.js"></script>
 </body>
 
 </html>
