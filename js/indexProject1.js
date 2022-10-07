@@ -24,3 +24,9 @@ const getInfoBanner = async () =>{
     document.querySelector (".info1 p").innerHTML = data.body
 }
 getInfoBanner();
+
+
+document.querySelector("#btnHamburguesa").addEventListener('click', ()=>{
+    document.querySelector("#menuHamburguesa").classList.toggle('is-active')
+    document.querySelector("#btnHamburguesa").classList.toggle('is-active')
+})

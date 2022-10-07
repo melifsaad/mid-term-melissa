@@ -6,16 +6,11 @@
 
 .grid-container {
     display: grid;
-    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 40px;
     grid-row-gap: 16px;
-    height: 100vh;
-    grid-template-areas:
-        'header header header '
-        'menu main main'
-        'footer footer footer'
-    ;
 }
+
 .projectCard {
     background-color: white;
 }

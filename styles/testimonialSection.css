@@ -1,13 +1,14 @@
 .testimonialSection {
+    width: 95vw;
     margin-top: 200px;
     margin-right: auto;
     margin-left: auto;
     height: 622px;
     background-color: #292E47;
     position: relative;
-    background-image: url(./Images/orbit.png);
-    background-size: contain;
-    background-repeat: repeat-y;
+    background-image: url("../Images/orbit.png");
+    background-position: center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

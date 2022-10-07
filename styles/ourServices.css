@@ -1,21 +1,15 @@
 .ourServices {
     margin-top: 200px;
-    /* width: 100%; */
     margin-left: 124px;
     margin-right: 124px;
 }
 
 .grid-services {
     display: grid;
-    grid-auto-columns: 1fr;
     grid-column-gap: 40px;
     grid-row-gap: 16px;
-    height: 380px;
-    grid-template-areas:
-        'header header header'
-        'menu main main'
-        'footer footer footer'
-    ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
 }
 
 .services1 {
@@ -47,5 +41,4 @@
 
 h6 {
     color: #072AC8;
-    /* margin: 30px 30px 20px; */
 }

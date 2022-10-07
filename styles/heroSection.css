@@ -1,7 +1,6 @@
 .heroSection {
     margin-left: 124px;
     margin-right: 124px;
-    height: 650px;
 }
 
 .container {
@@ -44,7 +43,8 @@
 }
 
 .heroImages {
-    width: 540px;
+    width: 100%;
+    max-width: 540px;
 }
 
 .card1 {
@@ -54,7 +54,7 @@
     bottom: -22%;
     right: auto;
     bottom: auto;
-    width: 300px;
+    width: 60%;
 }
 
 .card2 {
@@ -63,5 +63,5 @@
     top: auto;
     right: -25%;
     bottom: -22%;
-    width: 300px;
+    width: 55%;
 }

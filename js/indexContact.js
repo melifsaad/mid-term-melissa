@@ -1,4 +1,4 @@
-document.querySelector("#submit").addEventListener("click", (event) => {
+const enviarPost = async (event) => {
   event.preventDefault();
   const infoName = document.querySelector("#input1").value;
   const infoEmail = document.querySelector("#input2").value;
@@ -10,5 +10,26 @@ document.querySelector("#submit").addEventListener("click", (event) => {
     phone: infoPhone,
     message: infoMessage,
   };
-  console.log(data);
-});
+
+
+  fetch("https://jsonplaceholder.typicode.com/posts", {
+  method: "POST",
+  body: JSON.stringify(data),
+  headers: {
+    "Content-type": "application/json; charset=UTF-8",
+  },
+})
+  .then((response) => response.json())
+  .then((json) => console.log(json));
+
+  document.querySelector("#input1").value = "";
+};
+
+document.querySelector("form").addEventListener("submit", enviarPost);
+
+
+
+document.querySelector("#btnHamburguesa").addEventListener('click', ()=>{
+    document.querySelector("#menuHamburguesa").classList.toggle('is-active')
+    document.querySelector("#btnHamburguesa").classList.toggle('is-active')
+})
